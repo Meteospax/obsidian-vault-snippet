@@ -1,0 +1,76 @@
+:root {
+  --new-line-width: 700px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: left;
+}
+
+.cm-embed-block {
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+  word-spacing: 0px;
+}
+
+/* reading mode */
+.markdown-preview-view p {
+  text-align: justify;
+  text-justify: inter-word;
+  width: var(--new-line-width);
+  line-height: 1.5;
+  max-width: 700px;
+  hyphens: auto;
+  word-spacing: 0px;
+}
+
+.markdown-source-view.mod-cm6 .cm-line {
+  text-align: justify;
+  text-justify: inter-word;
+  width: var(--new-line-width);
+  line-height: 1.5;
+  max-width: 700px;
+  hyphens: auto;
+  word-spacing: 0px;
+}
+
+.cm-list {
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+  word-spacing: 0px;
+}
+
+.cm-list-1 {
+  width: 100%;
+  height: 100%;
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+  word-spacing: 0px;
+}
+
+.cm-formatting-list cm-formatting-list-ol cm-list-1,
+.cm-header,
+.HyperMD-list-line {
+  text-align: left;
+}
+
+.admonition {
+  text-align: justify;
+  text-justify: inter-word;
+  width: var(--new-line-width);
+  line-height: 1.5;
+  max-width: 700px;
+  hyphens: auto;
+  word-spacing: 0px;
+}
+
+.admonition-parent {
+  width: var(--new-line-width);
+}

@@ -1,0 +1,25 @@
+{
+  "spellcheck": false,
+  "tabSize": 2,
+  "autoConvertHtml": false,
+  "strictLineBreaks": true,
+  "trashOption": "local",
+  "alwaysUpdateLinks": true,
+  "showUnsupportedFiles": true,
+  "userIgnoreFilters": [
+    ".gitattributes",
+    ".gitignore",
+    ".gitconfig",
+    "README*",
+    "LICENSE*",
+    ".git*/",
+    "scripts/",
+    "icons/",
+    "node_modules/",
+    "package.json",
+    "package-lock.json",
+    "main.js",
+    "main.ts"
+  ],
+  "showInlineTitle": false
+}
