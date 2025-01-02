@@ -1,5 +1,10 @@
 {
   "monospaceFontFamily": "Fira Code",
   "textFontFamily": "Merriweather",
-  "nativeMenus": true
+  "nativeMenus": true,
+  "enabledCssSnippets": [
+    "images",
+    "indents",
+    "justify"
+  ]
 }

@@ -28,6 +28,9 @@ h6 {
   hyphens: auto;
   word-spacing: 0px;
 }
+.markdown-preview-view .admonition-parent p {
+  width: auto;
+}
 
 .markdown-source-view.mod-cm6 .cm-line {
   text-align: justify;
@@ -73,4 +76,14 @@ h6 {
 
 .admonition-parent {
   width: var(--new-line-width);
+}
+.table-cell-wrapper,
+tr {
+  text-justify: inter-word;
+  hyphens: auto;
+  word-spacing: 0px;
+}
+.cm-content .cm-lineWrapping {
+  width: auto !important;
+  max-width: auto !important;
 }

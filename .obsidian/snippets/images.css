@@ -6,3 +6,8 @@ img {
   border-radius: 2.5%;
   box-shadow: 1px 1px 1px 1px rgb(0 0 0 / 0.1);
 }
+
+.cm-widgetBuffer {
+  display: none !important;
+  box-shadow: none !important;
+}

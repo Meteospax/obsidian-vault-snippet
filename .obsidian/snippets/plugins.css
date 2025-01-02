@@ -1,0 +1,18 @@
+.timeline::after {
+  width: 0px;
+}
+.timeline {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.timeline .description {
+  opacity: 0;
+}
+.outliner-plugin-list-line {
+  margin-left: 14.4px;
+}
+.inline-title:not(.mk-inline-title) {
+  display: none !important;
+}
